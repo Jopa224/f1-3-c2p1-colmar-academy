@@ -1,0 +1,374 @@
+html, body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-left: 24px;
+}
+
+header h3 {
+  font-size: 2rem;
+  line-height: 32px;
+}
+
+header span {
+  font-weight: bold;
+}
+
+header .fa {
+  display: none;
+}
+
+.title {
+  width: 40%;
+  color: rgb(128, 104, 104);
+}
+
+.title span {
+  color: rgb(52, 45, 45);
+}
+
+nav li {
+  display: inline;
+  font-size: 1.5rem;
+  margin-left: 16px;
+  color: rgb(128, 104, 104);
+}
+
+.description {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(230,230,250);
+}
+
+.image-one {
+  width: 60%;
+}
+
+.image-one img {
+  width: 90%;
+  margin: 32px 24px;
+}
+
+.text {
+  width: 35%;
+  margin-left: 0px;
+  color: rgb(128, 104, 104);
+}
+
+.text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.start {
+  color: white;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.description-two {
+  display: flex;
+}
+
+.image-two {
+  width: 60%;
+}
+
+.image-two img {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  width: 90%;
+}
+
+.image-two h2 {
+  font-size: 2.2rem;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+  width: 90%;
+}
+
+.image-two p {
+  margin-left: 24px;
+  width: 90%;
+}
+
+.last {
+  margin-bottom: 32px;
+}
+
+.school {
+  margin-top: 32px;
+  display: inline;
+  width: 40%;
+}
+
+.about {
+  display: flex;
+}
+
+.about img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 45%;
+}
+
+.orientation h3 {
+  font-size: 2rem;
+  color: rgb(52, 45, 45);
+}
+
+.link {
+  color: blue;
+}
+
+.campus h3 {
+  font-size: 2rem;
+  color: rgb(52, 45, 45);
+}
+
+.lecture h3 {
+  font-size: 2rem;
+  color: rgb(52, 45, 45);
+}
+
+.orientation, .campus, .lecture {
+  width: 65%;
+}
+
+.description-three h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.computer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+}
+
+.box {
+  background-color: rgb(230,230,250);
+}
+
+.description-three {
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-bottom: 32px;
+}
+
+.list {
+  display: none;
+}
+
+.art, .business {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.last-four {
+  display: flex;
+  width: 100%;
+}
+
+.description-four h2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.movie {
+  width: 60%;
+}
+
+.movie video {
+  margin-left: 24px;
+  width: 90%;
+}
+
+.movie h3 {
+  font-size: 2rem;
+  margin-left: 24px;
+}
+
+.movie p {
+  width: 90%;
+  margin-left: 24px;
+}
+
+.picture {
+  margin-left: 24px;
+  margin-bottom: 24px;
+  width: 40%;
+}
+
+.pic-one, .pic-two {
+  display: flex;
+  width: 100%;
+}
+
+.pic-one img, .pic-two img {
+  margin: 16px;
+}
+
+footer {
+  margin-top: 16px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  width: 80%;
+  font-size: 1.5rem,
+}
+
+footer nav li {
+  display: inline;
+}
+
+footer nav ul li {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 470px) {
+  header h3, header nav li {
+    display: none;
+  }
+
+  header {
+    height: 64px;
+  }
+
+  header .hide {
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    color: rgb(52, 45, 45);
+    font-size: 1.75rem;
+  }
+
+  .description {
+    display: inline;
+  }
+
+  .image-one {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .image-two {
+    display: none;
+  }
+
+  .school {
+    width: 100%;
+  }
+
+  .about {
+    display: inline;
+    width: 100%;
+  }
+
+  .about img {
+    width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .orientation, .campus, .lecture {
+    width: 100%;
+    margin-left: 32px;
+    margin-right: 16px;
+  }
+
+  .box {
+    background-color: white;
+  }
+
+  .computer {
+    display: none;
+  }
+
+  .list {
+    display: list-item;
+    list-style: none;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+
+  .list p {
+    border: 1px thin rgb(230,230,250);
+    background-color: rgb(230,230,250);
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    width: 100%;
+  }
+
+  .description-four h2 {
+    width: 100%;
+    margin-top: 64px;
+    margin-bottom: 16px;
+  }
+
+  .last-four h3, .last-four p {
+    display: none;
+  }
+
+  .movie {
+    width: 100%;
+    height: auto;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  footer p {
+    margin:0 auto;
+    width: 100%;
+  }
+
+  footer nav li {
+    display: none;
+  }
+
+  header .fa {
+    display: inline;
+    margin-left: 60px;
+    text-align: center;
+  }
+
+
+}
